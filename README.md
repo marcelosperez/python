@@ -17,4 +17,3 @@ This repository serves as a quick reference for common Python tasks, including w
 - Useful built-in functions
 - Python tips and shortcuts
 
-The examples are intended to be simple, practical, and easy to use as a quick reference.
