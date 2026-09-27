@@ -12,5 +12,9 @@ def choose_day_of_week(day):
 # Look for day in the dictionary. If you find it, give me its value. 
 # If you don't find it, give me "Invalid day"
 
-user_input = int(input("Enter a number (1-7) to choose a day of the week: "))
-print(choose_day_of_week(user_input))
+try:
+    user_input = int(input("Enter a number (1-7) to choose a day of the week: "))
+    print(choose_day_of_week(user_input))
+
+except ValueError:
+    print("Please enter a number.")
