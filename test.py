@@ -9,3 +9,6 @@ def choose_day_of_week(day):
         7: "Sunday"
     }
     return days.get(day, "Invalid day")
+
+user_input = int(input("Enter a number (1-7) to choose a day of the week: "))
+print(choose_day_of_week(user_input))
