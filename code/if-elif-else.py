@@ -23,4 +23,4 @@ try:
     print(choose_day_of_week(user_input))
 
 except ValueError:
-    print("Please enter a number.")
+    print("Please enter a number!")
